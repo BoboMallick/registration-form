@@ -9,4 +9,5 @@ signInBtn.addEventListener('click',()=>{
     title.innerHTML = 'Sing in';
     signUpBtn.classList.add('disable');
     signInBtn.classList.remove('disable');
+    underLine.style.transform = 'translateX(35px)';
 });
